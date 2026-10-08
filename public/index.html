@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Agne Studio</title>
   <meta name="description" content="Agne Studio is an independent studio making focused apps that work offline and keep your data on your device. Home of Ronumi.">
-  <meta name="theme-color" content="#f7f6f3" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#111110" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#161513">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preload" href="/fonts/InstrumentSerif-Italic.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/styles.css">
   <meta property="og:title" content="Agne Studio">
-  <meta property="og:description" content="Software that respects your time. Home of Ronumi.">
+  <meta property="og:description" content="Small, careful software. Home of Ronumi.">
   <meta property="og:url" content="https://agne.uk/">
   <meta property="og:image" content="https://agne.uk/og.png">
   <meta property="og:image:width" content="1200">
@@ -19,40 +20,40 @@
 </head>
 <body>
   <header class="wrap top">
-    <a class="mark" href="/">Agne Studio</a>
+    <a class="brand" href="/"><img src="/img/mark.svg" width="27" height="30" alt="">Agne Studio</a>
     <nav>
-      <a href="#work">Apps</a>
+      <a href="#apps">Apps</a>
       <a href="#contact">Contact</a>
-      <a href="https://github.com/agneswd">GitHub</a>
     </nav>
   </header>
 
-  <main class="wrap">
-    <section class="intro">
-      <h1>Software that respects your time.</h1>
-      <p>Agne Studio is an independent studio making focused apps that work offline and keep your data on your device.</p>
+  <main>
+    <section class="wrap hero">
+      <h1>Small, careful software<span class="dot" aria-hidden="true"></span></h1>
+      <p>Agne Studio is an independent studio making focused apps. They work offline, keep your data on your device, and stay out of your way.</p>
     </section>
 
-    <section class="featured" id="work">
-      <div class="featured-text">
-        <img class="app-icon" src="/img/ronumi.svg" width="64" height="64" alt="">
+    <section class="wrap app" id="apps">
+      <div class="app-text">
+        <img class="app-icon" src="/img/ronumi.svg" width="72" height="72" alt="">
         <h2>Ronumi</h2>
-        <p>A focus timer and app blocker for Android, with a small companion who cheers you on. Block distracting apps, keep a focus streak, and keep your data on your phone.</p>
-        <p class="meta">Android &middot; Kotlin &middot; Jetpack Compose &middot; GPLv3</p>
-        <p class="links"><a href="https://ronumi.agne.uk">ronumi.agne.uk</a><a href="https://github.com/agneswd/Ronumi">Source</a></p>
+        <p class="lead">A focus timer and app blocker for Android, with a small companion who cheers you on.</p>
+        <p>Block distracting apps, keep a focus streak, and keep your data on your phone.</p>
+        <p class="meta">Android · Kotlin · Jetpack Compose · GPLv3</p>
+        <p class="links"><a href="https://ronumi.agne.uk">Visit ronumi.agne.uk</a><a href="https://github.com/agneswd/Ronumi">Source code</a></p>
       </div>
       <img class="phone" src="/img/ronumi-home.webp" width="540" height="1200" alt="Ronumi's home screen">
     </section>
 
-    <section class="contact" id="contact">
-      <h2>Contact</h2>
-      <p>For app support or anything else, email <a href="mailto:agneswdmail@gmail.com">agneswdmail@gmail.com</a>. Code and issues live on <a href="https://github.com/agneswd">GitHub</a>.</p>
+    <section class="wrap contact" id="contact">
+      <h2>Say hello<span class="dot" aria-hidden="true"></span></h2>
+      <p>For app support or anything else, email <a href="mailto:agneswdmail@gmail.com">agneswdmail@gmail.com</a>.</p>
     </section>
   </main>
 
   <footer class="wrap">
-    <span>&copy; 2026 Agne Studio</span>
-    <a href="https://ronumi.agne.uk/privacy/">Ronumi privacy policy</a>
+    <span>© 2026 Agne Studio</span>
+    <span class="foot-links"><a href="https://github.com/agneswd">GitHub</a><a href="https://ronumi.agne.uk/privacy/">Ronumi privacy policy</a></span>
   </footer>
 </body>
 </html>
