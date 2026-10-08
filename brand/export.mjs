@@ -27,6 +27,8 @@ const jobs = [
   ["wordmark-on-light-2400.png", 2400, 803, page(sized(svg("wordmark-on-light.svg"), 2400, 803), "#EFE9DD")],
   ["wordmark-transparent-2400.png", 2400, 803, page(sized(svg("wordmark-on-dark.svg"), 2400, 803))],
   ["og-1200x630.png", 1200, 630, page(`<div style="width:1200px;height:630px;display:flex;flex-direction:column;justify-content:center;padding:0 96px;box-sizing:border-box;color:#EFE9DD"><div style="width:620px">${svg("wordmark-on-dark.svg")}</div><div style="font:400 64px/1.05 IS;margin-top:36px">Small, careful software</div></div>`, "#141311")],
+  // YouTube shows only the middle 1546 x 423 on every device, so the wordmark stays inside that area.
+  ["youtube-banner-2560x1440.png", 2560, 1440, page(`<div style="width:2560px;height:1440px;display:flex;align-items:center;justify-content:center"><div style="width:1040px">${svg("wordmark-on-dark.svg")}</div></div>`, "#141311")],
   ["play-header-4096x2304.png", 4096, 2304, page(`<div style="width:4096px;height:2304px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#EFE9DD"><div style="width:1900px">${svg("wordmark-on-dark.svg")}</div><div style="font:400 190px/1 IS;margin-top:110px">Small, careful software</div></div>`, "#141311")],
 ];
 
