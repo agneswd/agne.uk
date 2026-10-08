@@ -37,6 +37,7 @@ Everything needed to use the Agne Studio logo somewhere new. Use these files as 
 | `wordmark-transparent-2400.png` | 2400 x 803 | Wordmark for dark backgrounds, transparent. |
 | `og-1200x630.png` | 1200 x 630 | Link previews (also `public/og.png`). |
 | `play-header-4096x2304.png` | 4096 x 2304 | Google Play developer page header. |
+| `youtube-banner-2560x1440.png` | 2560 x 1440 | YouTube channel banner. Only the middle 1546 x 423 shows on all devices, so the wordmark stays there. |
 
 ## Colors
 
